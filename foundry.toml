@@ -5,6 +5,9 @@ libs = ["lib"]
 solc = "0.8.20"
 remappings = ['@openzeppelin/contracts=lib/openzeppelin-contracts/contracts']
 
+[fuzz] # To reduce the numbers of tests and have less logs to debuggin easily? I'm not sure for now
+seed = "0x1"
+
 [invariant]
 runs = 256
 depth = 32

@@ -119,12 +119,14 @@ A user can either choose exactly how much to input (ie: I want to use 10 USDC to
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/5-t-swap-audit
+git clone https://github.com/ivan-onchain/audit-tswap-protocol
 cd 5-t-swap-audit
 make 
 ```
 
 # Usage
+
+In the invariant folder you will find the invariant tests that covert the swap logic.
 
 ## Testing
 
